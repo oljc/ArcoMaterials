@@ -1,0 +1,26 @@
+{
+  "name": "arco-vue-book",
+  "title": "书本",
+  "description": "流畅新颖的翻页书本组件。书籍封面、内容可自定义。",
+  "type": "vue-component",
+  "category": [
+    "数据展示",
+    "信息展示",
+    "其他"
+  ],
+  "group": 0,
+  "homepage": "",
+  "repository": "",
+  "author": "LIjiAngChen8",
+  "screenshot": "",
+  "package": {
+    "name": "arco-vue-book",
+    "version": "latest",
+    "type": "npm",
+    "registry": "",
+    "peerDependencies": [
+      "vue",
+      "@arco-design/web-vue"
+    ]
+  }
+}
