@@ -1,6 +1,6 @@
 {
   "name": "arco-vue-book",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "流畅新颖的翻页书本组件。书籍封面、内容可自定义。",
   "keywords": [
     "vue",
@@ -26,8 +26,8 @@
     "preview": "arco preview"
   },
   "peerDependencies": {
-    "vue": "^3.2.0",
-    "@arco-design/web-vue": ">=2.0.0-beta.7"
+    "@arco-design/web-vue": ">=2.0.0-beta.7",
+    "vue": "^3.2.0"
   },
   "arcoMeta": {
     "type": "vue-component",
