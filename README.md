@@ -1,55 +1,24 @@
-# Arco 物料 Monorepo
+# Arco 物料库-Vue
 
-**此项目依赖 `yarn` 和 `lerna`，请确保你已全局安装这两个包。**
+[![build-passing](https://img.shields.io/badge/build-passing-brightgreen)](https://arco.design/material/detail?name=arco-vue-book)
+![release](https://badgen.net/github/release/LIjiAngChen8/ArcoMaterials/babel)  ![](https://badgen.net/badge/license/MIT/blue)
+# [![npm](https://img.shields.io/npm/v/vue/next.svg)](https://www.npmjs.com/package/vue/v/next) [![build status](https://github.com/vuejs/core/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/vuejs/core/actions/workflows/ci.yml)
+[![NPM](https://nodei.co/npm/arco-vue-book.png?compact=true&)](https://www.npmjs.com/package/arco-vue-book)
 
-## 准备工作
 
-如果这是你刚刚从 Git 仓库克隆下来的项目，请首先安装所有的项目依赖，并执行一次构建。
+## 📌说明
 
-```
-// 安装公共依赖项
-yarn install
 
-// 为 packages 中的包安装各自的依赖
-lerna bootstrap
+* 本仓库下的Package依赖于[@arco-design/web-vue](https://www.npmjs.com/package@arco-design/web-vue)、[Vue](https://www.npmjs.com/package/vue)  
 
-// 执行项目构建
-yarn build
-```
+* 使用该仓库下的组件时尽可能的保证你的`Vue`版本`vue >= 3.2.0`
+* 具体说明：[ArcoDesign平台](https://arco.design/vue/docs/start)、[Vue官网](https://v3.cn.vuejs.org/guide/introduction.html#vue-js-%E6%98%AF%E4%BB%80%E4%B9%88)
 
-## 指定默认团队ID
+该项目下每个组件都拥有对应的介绍文档,如需了解组件详情请去查看对应组件说明文档。  
 
-`arco generate` 生成的物料信息默认的 Group 为 0，如果你想要指定默认生成你的团队ID，可在 `arco.config.js` 里进行如下配置：
 
-```js
-module.exports = {
-  // ...
-  // initial meta for 'arco generate'
-  initialMeta: {
-    // 修改此处为你的团队ID
-    group: 1,
-  },
-};
 
-```
+如果有帮助到你请Star一下吧⭐️  
+### 🏷author:
 
-## 为 Monorepo 添加 Arco 物料
-
-```
-yarn add:package -- yourPackageDirectoryName
-```
-
-## 快速开始
-
-```
-// 开发模式
-yarn dev
-
-// 构建所有包
-yarn build
-
-// 构建单个包
-lerna run build --stream --scope packageName
-```
-
-[查看完整帮助文档](https://arco.design/cli)
+李江辰-LIjiANgChen

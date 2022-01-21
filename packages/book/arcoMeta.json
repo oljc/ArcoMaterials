@@ -8,9 +8,9 @@
     "信息展示",
     "其他"
   ],
-  "group": 0,
+  "group": 62,
   "homepage": "",
-  "repository": "",
+  "repository": "https://github.com/LIjiAngChen8/ArcoMaterials",
   "author": "LIjiAngChen8",
   "screenshot": "",
   "package": {
@@ -19,8 +19,9 @@
     "type": "npm",
     "registry": "",
     "peerDependencies": [
-      "vue",
-      "@arco-design/web-vue"
+      "@arco-design/web-vue",
+      "vue"
     ]
-  }
+  },
+  "metaUpdateTime":1642729398666
 }
