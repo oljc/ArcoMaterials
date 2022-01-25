@@ -1,5 +1,5 @@
 {
-  "name": "arco-vue-uploadButton",
+  "name": "arco-vue-upload-button",
   "version": "0.1.2",
   "description": "点击按钮触发加载、完成动画的按钮",
   "keywords": [
@@ -41,5 +41,5 @@
     "dist",
     "docs"
   ],
-  "gitHead": "1fa37db48526e9964cead475ae8562ee9c63ec34"
+  "gitHead": "f7fb658bc6d30f03c19e06a63eeeb246d9b08cb1"
 }
