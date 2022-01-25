@@ -1,0 +1,25 @@
+{
+  "name": "arco-vue-uploadButton",
+  "title": "Upload Button",
+  "description": "点击按钮触发加载、完成动画的按钮",
+  "type": "vue-component",
+  "category": [
+    "信息展示",
+    "其他"
+  ],
+  "group": 0,
+  "homepage": "",
+  "repository": "",
+  "author": "LIjiAngChen8",
+  "screenshot": "",
+  "package": {
+    "name": "arco-vue-uploadButton",
+    "version": "latest",
+    "type": "npm",
+    "registry": "",
+    "peerDependencies": [
+      "vue",
+      "@arco-design/web-vue"
+    ]
+  }
+}

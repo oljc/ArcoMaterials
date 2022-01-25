@@ -1,15 +1,21 @@
 <template>
-  <tooltip-button tip="button tip">Demo Basic</tooltip-button>
+  <UploadButton style="margin: 0 10px" size="mini">mini</UploadButton>
+  <UploadButton style="margin: 0 10px" size="small">small</UploadButton>
+  <UploadButton style="margin: 0 10px" size="large" :success-duration="800"
+    >这是一段较长的文字</UploadButton
+  >
+  <UploadButton style="margin: 0 10px">提交</UploadButton>
+  <UploadButton style="margin: 0 10px" type="square">形状</UploadButton>
+  <UploadButton style="margin: 0 10px" disabled>禁用</UploadButton>
 </template>
 
 <script lang="ts">
-import TooltipButton from 'arco-vue-uploadButton';
+import UploadButton from 'arco-vue-uploadButton';
 
-// 目前vue-live导出defineComponent存在问题，所以仅支持普通对象导出。
 export default {
   name: 'BasicDemo',
   components: {
-    TooltipButton,
+    UploadButton,
   },
 };
 </script>
