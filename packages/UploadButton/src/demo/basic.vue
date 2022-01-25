@@ -10,7 +10,7 @@
 </template>
 
 <script lang="ts">
-import UploadButton from 'arco-vue-uploadButton';
+import UploadButton from 'arco-vue-UploadButton';
 
 export default {
   name: 'BasicDemo',

@@ -1,5 +1,5 @@
 {
-  "name": "arco-vue-uploadButton",
+  "name": "arco-vue-upload-button",
   "title": "Upload Button",
   "description": "点击按钮触发加载、完成动画的按钮",
   "type": "vue-component",
@@ -7,19 +7,19 @@
     "信息展示",
     "其他"
   ],
-  "group": 0,
+  "group": 62,
   "homepage": "",
-  "repository": "",
+  "repository": "https://github.com/LIjiAngChen8/ArcoMaterials",
   "author": "LIjiAngChen8",
   "screenshot": "",
   "package": {
-    "name": "arco-vue-uploadButton",
+    "name": "arco-vue-upload-button",
     "version": "latest",
     "type": "npm",
     "registry": "",
     "peerDependencies": [
-      "vue",
-      "@arco-design/web-vue"
+      "@arco-design/web-vue",
+      "vue"
     ]
   }
 }
