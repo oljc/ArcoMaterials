@@ -34,6 +34,6 @@ export default {
 .test {
   width: 100px;
   height: 140px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 </style>
