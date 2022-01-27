@@ -9,7 +9,7 @@
   ],
   "group": 62,
   "homepage": "",
-  "repository": "",
+  "repository": "https://github.com/LIjiAngChen8/ArcoMaterials",
   "author": "LIjiAngChen8",
   "screenshot": "",
   "package": {
@@ -22,5 +22,5 @@
       "vue"
     ]
   },
-  "metaUpdateTime": 1643289365230
+  "metaUpdateTime": 1643291358146
 }
