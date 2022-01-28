@@ -11,7 +11,7 @@
   "homepage": "",
   "repository": "https://github.com/LIjiAngChen8/ArcoMaterials",
   "author": "LIjiAngChen8",
-  "screenshot": "",
+  "screenshot": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-efbfcb02-017d-4e68-a2c7-f92e33192dbb/743344d8-9100-46b6-a940-6feb28f2ccd6.gif",
   "package": {
     "name": "arco-vue-upload-button",
     "version": "latest",
@@ -22,5 +22,5 @@
       "vue"
     ]
   },
-  "metaUpdateTime": 1643291358146
+  "metaUpdateTime": 1643291531561
 }
