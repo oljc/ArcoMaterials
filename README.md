@@ -3,8 +3,6 @@
 [![](https://data.jsdelivr.com/v1/package/npm/arco-vue-book/badge)](https://www.jsdelivr.com/package/npm/arco-vue-book)
 [![build-passing](https://img.shields.io/badge/build-passing-brightgreen)](https://arco.design/material/detail?name=arco-vue-book)
 ![release](https://badgen.net/github/release/LIjiAngChen8/ArcoMaterials/babel)  ![](https://badgen.net/badge/license/MIT/blue)
-# [![npm](https://img.shields.io/npm/v/vue/next.svg)](https://www.npmjs.com/package/vue/v/next) [![build status](https://github.com/vuejs/core/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/vuejs/core/actions/workflows/ci.yml)
-[![NPM](https://nodei.co/npm/arco-vue-book.png?compact=true&)](https://www.npmjs.com/package/arco-vue-book)
 
 
 ## 📌说明
