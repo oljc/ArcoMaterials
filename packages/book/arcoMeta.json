@@ -12,7 +12,7 @@
   "homepage": "",
   "repository": "https://github.com/LIjiAngChen8/ArcoMaterials",
   "author": "LIjiAngChen8",
-  "screenshot": "https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b514c774c30b4eb396abd13cbe973e7b~tplv-k3u1fbpfcp-watermark.image?",
+  "screenshot": "https://img-blog.csdnimg.cn/418192754f1a426da7d123cc24b4f4b7.gif",
   "package": {
     "name": "arco-vue-book",
     "version": "latest",
@@ -23,5 +23,5 @@
       "vue"
     ]
   },
-  "metaUpdateTime": 1643346586202
+  "metaUpdateTime": 1677740879733
 }
