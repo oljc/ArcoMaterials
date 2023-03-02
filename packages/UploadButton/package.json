@@ -1,6 +1,6 @@
 {
   "name": "arco-vue-upload-button",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "点击按钮触发加载、完成动画的按钮",
   "keywords": [
     "vue",
