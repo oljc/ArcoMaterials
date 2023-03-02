@@ -18,8 +18,7 @@ export default {
     return {
       num: 0,
       text: '内页自定义内容',
-      demoUrl:
-        'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-efbfcb02-017d-4e68-a2c7-f92e33192dbb/936b5f5c-c28b-4332-8bf8-cb18ba2e9f2b.jpeg',
+      demoUrl: 'https://i.imgur.com/LrUuAFM.png',
     };
   },
   methods: {

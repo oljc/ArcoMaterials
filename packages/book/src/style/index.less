@@ -1,4 +1,166 @@
-.tooltip-button {
-  height: auto;
-  padding: 20px;
+.book-wrapper {
+  .book-cover {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-bg-1);
+
+    .book {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .book-inside {
+    left: 0;
+    width: 96%;
+    height: 100%;
+    color: var(--color-text-2);
+    background-color: var(--color-bg-2);
+    border: 1px solid lightgray;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+  }
+
+  .book-end {
+    top: 2%;
+    left: 0;
+    background-color: var(--color-bg-1);
+    border: 1px lightgray solid;
+  }
+}
+
+.book-wrapper div {
+  position: absolute;
+  border-radius: 0 2px 2px 0;
+  box-shadow: 0 1px 8px 10px rgba(212, 212, 212, 0.08);
+}
+
+.book-wrapper {
+  transform: translate3d(0, 0, 0);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-perspective: 800px;
+  perspective: 800px;
+}
+
+.book-wrapper div {
+  transform: translate3d(0, 0, 0);
+  -webkit-transform-origin: left;
+  transform-origin: left;
+}
+
+.book-wrapper div:nth-of-type(1) {
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.book-wrapper div:nth-of-type(2) {
+  -webkit-transform: rotateY(5deg);
+  transform: rotateY(5deg);
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+.book-wrapper div:nth-of-type(3) {
+  -webkit-transform: rotateY(10deg);
+  transform: rotateY(10deg);
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.book-wrapper div:nth-of-type(4) {
+  -webkit-transform: rotateY(15deg);
+  transform: rotateY(15deg);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.book-wrapper div:nth-of-type(5) {
+  -webkit-transform: rotateY(20deg);
+  transform: rotateY(20deg);
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.book-wrapper div:nth-of-type(6) {
+  -webkit-transform: rotateY(25deg);
+  transform: rotateY(25deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.book-wrapper div:nth-of-type(7) {
+  -webkit-transform: rotateY(25deg);
+  transform: rotateY(25deg);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.book-wrapper div:nth-of-type(8) {
+  -webkit-transform: rotateY(30deg);
+  transform: rotateY(30deg);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* 鼠标悬停时的旋转角度和旋转时间 */
+.book-wrapper:hover div:nth-of-type(1) {
+  -webkit-transform: rotateY(-160deg);
+  transform: rotateY(-160deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.book-wrapper:hover div:nth-of-type(2) {
+  -webkit-transform: rotateY(-155deg);
+  transform: rotateY(-155deg);
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
+}
+
+.book-wrapper:hover div:nth-of-type(3) {
+  -webkit-transform: rotateY(-145deg);
+  transform: rotateY(-145deg);
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.book-wrapper:hover div:nth-of-type(4) {
+  -webkit-transform: rotateY(-138deg);
+  transform: rotateY(-138deg);
+  -webkit-transition: 1.7s;
+  transition: 1.7s;
+}
+
+.book-wrapper:hover div:nth-of-type(5) {
+  -webkit-transform: rotateY(-132deg);
+  transform: rotateY(-132deg);
+  -webkit-transition: 1.8s;
+  transition: 1.8s;
+}
+
+.book-wrapper:hover div:nth-of-type(6) {
+  -webkit-transform: rotateY(-125deg);
+  transform: rotateY(-125deg);
+  -webkit-transition: 1.8s;
+  transition: 1.8s;
+}
+
+.book-wrapper:hover div:nth-of-type(7) {
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  -webkit-transition: 1.85s;
+  transition: 1.85s;
+}
+
+.book-wrapper:hover div:nth-of-type(8) {
+  -webkit-transform: rotateY(-1deg);
+  transform: rotateY(-1deg);
+  -webkit-transition: 1.9s;
+  transition: 1.9s;
 }
