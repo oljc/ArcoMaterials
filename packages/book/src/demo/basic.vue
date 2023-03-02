@@ -18,7 +18,8 @@ export default {
     return {
       num: 0,
       text: '内页自定义内容',
-      demoUrl: 'https://i.imgur.com/LrUuAFM.png',
+      demoUrl:
+        'https://img-blog.csdnimg.cn/50dc93e785354bc4b4ddf82915e78875.png',
     };
   },
   methods: {
